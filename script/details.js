@@ -29,8 +29,8 @@ export class Detalis {
    displayDetails(result) {
       details.classList.remove("d-none");
       let box = `
-            <div class="d-flex justify-content-between align-items-center mb-3">
-                <h2 class="h1 mt-5">Details Game</h2>
+            <div class="d-flex justify-content-between align-items-center my-3">
+                <h2 class="h1">Details Game</h2>
                 <img src="image/download (1).svg" alt="close" class="p-2 bg-white rounded-3" width="30" height="30" id="close"/>
             </div>
             <div class="row g-4">
