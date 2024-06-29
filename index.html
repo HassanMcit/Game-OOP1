@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Hassan Ali Task13.">
+  <title>Task 13</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Nerko+One&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style/all.min.css">
+  <link rel="stylesheet" href="style/bootstrap.min.css">
+  <link rel="stylesheet" href="style/style.css">
+</head>
+
+<body>
+
+  <div class="home-section">
+    <header>
+      <img src="image/wraper.png" class="w-100 h-25" alt="wraper" />
+    </header>
+    <nav id="home" class="navbar navbar-expand-lg position-sticky top-0 z-3 p-0 d-none">
+      <div class="container nav px-3 bg-primary-subtle Nerko-One rounded-4 shadow ">
+        <h5 class="navbar-brand d-flex align-items-center text-white my-0" href="#">
+          <img src="image/logo-sm.png" class="object-fit-cover" width="50" alt="logo" />
+          <p class="fs-3 my-0 ms-2">GAME REVIEWS</p>
+        </h5>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto justify-content-end mb-2 mb-lg-0 nav nav-pills mb-3" id="pills-tab"
+            role="tablist">
+            <li class="nav-item" role="presentation">
+              <button class="nav-link text-white active" id="pills-MMORPG-tab" data-bs-toggle="pill"
+                data-bs-target="#pills-MMORPG" type="button" role="tab" aria-controls="pills-MMORPG"
+                aria-selected="true" data-category="MMORPG">MMORPG</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link text-white" id="pills-SHOOTER-tab" data-bs-toggle="pill"
+                data-bs-target="#pills-SHOOTER" type="button" role="tab" aria-controls="pills-SHOOTER"
+                aria-selected="false" data-category="SHOOTER">SHOOTER</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link text-white" id="pills-SAILING-tab" data-bs-toggle="pill"
+                data-bs-target="#pills-SAILING" type="button" role="tab" aria-controls="pills-SAILING"
+                aria-selected="false" data-category="SAILING">SAILING</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link text-white" id="pills-PERMADEATH-tab" data-bs-toggle="pill"
+                data-bs-target="#pills-PERMADEATH" type="button" role="tab" aria-controls="pills-PERMADEATH"
+                aria-selected="false" data-category="PERMADEATH">PERMADEATH</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link text-white" id="pills-SUPERHERO-tab" data-bs-toggle="pill"
+                data-bs-target="#pills-SUPERHERO" type="button" role="tab" aria-controls="pills-SUPERHERO"
+                aria-selected="false" data-category="SUPERHERO">SUPERHERO</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link text-white" id="pills-PIXEL-tab" data-bs-toggle="pill"
+                data-bs-target="#pills-PIXEL" type="button" role="tab" aria-controls="pills-PIXEL" aria-selected="false"
+                data-category="PIXEL">PIXEL</button>
+            </li>
+          </ul>
+
+        </div>
+      </div>
+    </nav>
+    <main>
+      <div class="container">
+        <div class="row py-5 g-5 d-none" id="row">
+        </div>
+      </div>
+    </main>
+  </div>
+  <div class="details container text-white" id="details">
+  </div>
+  <div class="spinner vh-100 d-flex justify-content-center align-items-center d-none" id="spinner">
+    <span class="loader"></span>
+  </div>
+
+  <script src="script/bootstrap.bundle.min.js"></script>
+  <script src="script/script.js" type="module"></script>
+
+</body>
+
+</html>
