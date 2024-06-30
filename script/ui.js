@@ -28,8 +28,8 @@ export class DisplayData {
                             </div>
                         </div>
                         <div class="border-top border-1 border-secondary text-white d-flex justify-content-between px-2">
-                            <p class=" m-0 font-size-14 bg-secondary bg-opacity-25 px-1 py-1 my-2 fw-bolder rounded-3 ">${e.genre}</p>
-                            <p class=" m-0 font-size-14 bg-secondary bg-opacity-25 px-1 ms-3 py-1 my-2 fw-bolder rounded-3 ">${e.platform}</p>
+                            <p class=" m-0 font-size-14 bg-secondary bg-opacity-25  px-1 py-1 my-2 fw-bolder rounded-3 ">${e.genre}</p>
+                            <p class=" m-0 font-size-14 bg-secondary bg-opacity-25  px-1 ms-3 py-1 my-2 fw-bolder rounded-3 ">${e.platform}</p>
                         </div>
                     </div>
                 </div>`

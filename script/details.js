@@ -42,14 +42,14 @@ export class Detalis {
             <div class="col-12 col-md-8">
                 <div class="data">
                 <h3>Title: ${result.title}</h3>
-                <h5 class="my-4">Category: <span class="px-1 rounded-3 ms-1">${result.genre}</span></h5>
-                <h5 class="my-4">Platform: <span class="px-1 rounded-3 ms-1">${result.platform}</span></h5>
-                <h5 class="my-4">Status: <span class="px-1 rounded-3 ms-1">${result.status}</span></h5>
+                <h5 class="my-4">Category: <span class="px-1 rounded-3 ms-1 font-size-18">${result.genre}</span></h5>
+                <h5 class="my-4">Platform: <span class="px-1 rounded-3 ms-1 font-size-18">${result.platform}</span></h5>
+                <h5 class="my-4">Status: <span class="px-1 rounded-3 ms-1 font-size-18">${result.status}</span></h5>
                 <P class="font-size-18">${result.description}</P>
-                    <a href="${result.game_url}" class="btn btn-outline-warning mb-4">Show Game</a>
+                    <a href="${result.game_url}" class="btn btn-outline-warning mb-4 text-white fw-semibold">Show Game</a>
                 </div>
             </div>
-            </div>`
+            </div>`;
       details.innerHTML = box;
       let close = document.getElementById("close");
       close.addEventListener('click', function (e) {
